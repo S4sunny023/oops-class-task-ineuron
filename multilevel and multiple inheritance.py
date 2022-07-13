@@ -14,7 +14,7 @@ class Ineuron:
     def age(self, current_year):
         try:
             logging.info("will return age")
-            return f"{self.stdnt_name}:current_year-self.yob
+            return f"{self.stdnt_name}",current_year-self.yob
         except Exception as e:
             logging.error(e)
 
